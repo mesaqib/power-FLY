@@ -1,0 +1,22 @@
+<%- include("include/default-header.ejs") %>
+  
+<%- include("include/navbar.ejs") %>
+
+
+<div class="signin-form">
+    <form class="myform">
+        <h3 class="has-text-centered has-text-white">Welcome back!</h3>
+        <h1 class="has-text-centered is-size-5 has-text-white">Pleaes Sign In</h1> <br/><br/>
+        <input class="input" type="text" placeholder="Enter your Username">  
+        <input class="input" type="password" placeholder="Enter your Password">
+       <!-- <a href="/user">
+       Sign in
+       </a> <br/><br/> -->
+       
+    </form>
+    <a href="/user">
+        <button class="button is-fullwidth is-success">Enter</button>
+</div>
+
+
+<%- include('footer.ejs') -%>

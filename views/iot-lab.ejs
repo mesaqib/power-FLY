@@ -1,0 +1,44 @@
+<%- include("include/default-header.ejs") %>
+  
+<%- include("include/navbar.ejs") %>
+
+<div class="ai-ml-lab container">
+    <div class="box secondary">
+        <center>CSE | IoT Lab</center>
+    </div> <br/><br/>
+
+    <div class="box is-flex is-justify-content-space-between is-align-items-center">
+        <div class="left">Room Tempreture</div>
+        <div class="right">
+            <button class="button is-success">N/A</button>
+        </div>
+    </div>
+
+    <div class="box is-flex is-justify-content-space-between is-align-items-center">
+        <div class="left">Light On Off</div>
+        <div class="right">
+            <!-- <button class="button primary">N/A</button> -->
+            <div class="toggle">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="box is-flex is-justify-content-space-between is-align-items-center">
+        <div class="left">Currrent reading</div>
+        <div class="right">
+            <button class="button primary">N/A</button>
+        </div>
+    </div>  
+
+    <div class="box is-flex is-justify-content-space-between is-align-items-center">
+        <div class="left">Voltage Reading</div>
+        <div class="right">
+            <button class="button primary">N/A</button>
+        </div>
+    </div>  
+
+</div>
+
+<script src="js/script.js"></script>
+<%- include('footer.ejs') -%>

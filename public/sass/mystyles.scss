@@ -1,0 +1,160 @@
+$navbar-background-color: #212227;
+$navbar-item-color: white;
+$navbar-item-hover-background-color: none;
+
+
+
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+body {
+    background-color: $navbar-background-color;
+}
+
+
+///////////////////////////
+.toggle {
+    position: relative;
+    height: 40px;
+    width: 80px;
+    background-color: #222121;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.toggle.active {
+    background-color: rgb(212, 212, 212);
+}
+
+.circle {
+    position: absolute;
+    height: 30px;
+    width: 32px;
+    top: 5px;
+    left: 5px;
+    border-radius: 50px;
+    background-color: #00D1B2;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.circle.active {
+    left: 40px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.r-circle {
+    position: absolute;
+    height: 500px;
+    left: 0;
+}
+
+.l-circle {
+    position: absolute;
+    right: 0;
+    height: 500px;
+}
+
+.section-2 {
+    margin-top: 300px;
+
+    .box {
+        position: relative;
+    }
+
+    .no {
+        position: absolute;
+        top: -40px;
+        left: -30px;
+        font-size: 60px;
+        font-weight: 800;
+        color: #24C48E;
+    }
+}
+
+.footer {
+    margin-top: 300px;
+    background-color: $navbar-background-color;
+
+    .links {
+        display: flex;
+        justify-content: space-between;
+
+        .link {
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+
+            a {
+                color: white;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.signin-form {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .myform {
+        background-color: #24C48E;
+        padding: 50px;
+        border-radius: 30px;
+
+        input {
+            margin-top: 10px;
+        }
+    }
+}
+
+
+.user {
+    padding-top: 200px;
+
+    .r-img {
+        position: absolute;
+        left: 0;
+        height: 40rem;
+    }
+
+    .l-img {
+        position: absolute;
+        right: 0;
+        height: 40rem;
+    }
+}
+
+.ai-ml-lab {
+    padding-top: 100px;
+}

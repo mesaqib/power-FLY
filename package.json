@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@mui/material": "^5.8.7",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "styled-components": "^5.3.5"
+  },
+  "name": "power-fly",
+  "version": "1.0.0",
+  "main": "sass/mystyle.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "saqib",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1"
+  }
+}
